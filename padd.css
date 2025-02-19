@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+.col-lg {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.site-hero {
+    background: url(hero-background\ ASS.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.site-hero h6 {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Montserrat, sans-serif;
+    color: rgb(0, 17, 62);
+    
+}
+.site-hero h1 {
+    font-size: 60px;
+    margin-bottom: 75px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    color: rgb(0, 17, 62);
+}
+
+.btn-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.ad {
+    font-family: "Montserrat", sans-serif;
+    border: 0;
+    color: #fff !important;
+    padding: 20px 45px;
+    border-radius: 0;
+    background: #add6d2;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+.da {
+    font-family: "Montserrat", sans-serif;
+    border: 0;
+    color: #fff !important;
+    padding: 20px 45px;
+    border-radius: 0;
+    background: #eaa4a4;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1rem;
+}
+.scrol {
+    margin-top: 40px;
+    vertical-align: middle;
+    font-size: 30px;
+
+}
+
+@media screen and (max-width:320px) {
+    .site-hero-text h1 {
+        font-size: 30px;
+        font-family: Montserrat, sans-serif;
+        font-weight: 200;
+    }
+
+}
+@media screen and (max-width:575px) {
+    .site-hero {
+        padding: 150px 0;
+    }
+    .site-hero-text h6 {
+        font-size: 15px;
+        font-weight: 300;
+        font-family: Montserrat, sans-serif;
+        line-height: 1.2;
+        color: rgb(0, 17, 62);
+    }
+    .site-hero-text h1 {
+        font-size: 30px;
+        max-width: 545px;
+        /* margin: 0 0 8px; */
+        margin-bottom: 75px;
+        font-family: Montserrat, sans-serif;
+        color: rgb(0, 17, 62);
+    }
+    .ad {
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+        padding: 17px 40px;
+        margin: 0px 27.17px;
+    }
+    .da {
+        width: 90%;
+        display: block;
+        margin: 0px auto;
+        padding: 17px 40px;
+        margin: 0px 27.17px;
+    }
+    .site-hero-text a {
+        position: absolute;
+        left: 50%;
+        bottom: 40px;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .site-hero-text h6 {
+        font-size: 15px;
+        font-weight: 300px;
+        font-family: Montserrat, sans-serif;
+    }
+    .site-hero-text h1 {
+        margin-bottom: 75px;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .btn-content {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .da .ad {
+        margin-right: 30px;
+        display: inline-block;
+        font-weight: 600;
+        padding: 17px 40px;
+    }
+}
+@media screen and (max-width:768px) {
+    .site-hero-text h1 {
+        margin: 0 0 8px;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(0, 17, 62);
+        margin-bottom: 75px;
+    }   
+    .btn-content {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width:992px) {
+    .site-hero-text h1 {
+        margin-bottom: 75px;
+        font-size: 60px;
+        font-weight: 600px;
+        font-family: Montserrat, sans-serif;
+        line-height: 1.2;
+        margin-top: 0;
+        /* max-width: 770px; */
+        height: auto;
+    }
+    .site-hero-text a {
+        bottom: 0;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .site-hero-text a {
+        margin-top: 50px;
+    }
+}
+
+
+
+
