@@ -78,7 +78,7 @@ body {
     font-size: 1rem;
 }
 .blown {
-    margin-top: 70px;
+    margin-top: 0;
     vertical-align: middle;
     font-size: 30px;
 
@@ -93,8 +93,8 @@ body {
         font-family: "Montserrat", sans-serif;
         font-weight: 200;
     }
-    .blown a {
-        padding-bottom: 100px;
+    .blown a img {
+        padding-bottom: 80px;
     }
 
 }
@@ -139,7 +139,7 @@ body {
         margin: 0px 27.17px;
     }
     .blown a {
-        position: absolute;
+        /* position: absolute; */
         left: 50%;
         bottom: 40px;
         transform: translateX(-50%);
@@ -194,13 +194,13 @@ body {
         /* max-width: 770px; */
         height: auto;
     }
-    .site-hero-text a {
+    .blown  {
         bottom: 0;
         margin-top: 20px;
     }
 }
 @media screen and (max-width:1200px) {
-    .site-hero-text a {
+    .blown a {
         margin-top: 60px;
     }
 }
