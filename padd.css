@@ -4,6 +4,11 @@
 *{
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", serif;
+}
 .col-lg {
     display: flex;
     text-align: center;
@@ -26,15 +31,17 @@
 .site-hero h6 {
     font-size: 15px;
     font-weight: 300;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: rgb(0, 17, 62);
     
 }
-.site-hero h1 {
+.site-hero-text h1 {
     font-size: 60px;
+    margin-top: 0;
+    line-height: 1.2;
     margin-bottom: 75px;
-    font-family: Montserrat, sans-serif;
-    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     color: rgb(0, 17, 62);
 }
 
@@ -70,21 +77,33 @@
     text-align: center;
     font-size: 1rem;
 }
-.scrol {
-    margin-top: 40px;
+.blown {
+    margin-top: 70px;
     vertical-align: middle;
     font-size: 30px;
 
 }
 
 @media screen and (max-width:320px) {
+    .site-hero-text {
+        padding: 100px 0;
+    }
     .site-hero-text h1 {
         font-size: 30px;
-        font-family: Montserrat, sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-weight: 200;
+    }
+    .blown a {
+        padding-bottom: 100px;
     }
 
 }
+@media screen and (max-width:375px) {
+    .blown {
+        padding-bottom: 0;
+
+    }
+}    
 @media screen and (max-width:575px) {
     .site-hero {
         padding: 150px 0;
@@ -92,16 +111,17 @@
     .site-hero-text h6 {
         font-size: 15px;
         font-weight: 300;
-        font-family: Montserrat, sans-serif;
+        font-family: "Montserrat", sans-serif;
         line-height: 1.2;
         color: rgb(0, 17, 62);
+        margin-top: 0;
     }
     .site-hero-text h1 {
         font-size: 30px;
         max-width: 545px;
         /* margin: 0 0 8px; */
         margin-bottom: 75px;
-        font-family: Montserrat, sans-serif;
+        font-family: "Montserrat", sans-serif;
         color: rgb(0, 17, 62);
     }
     .ad {
@@ -118,7 +138,7 @@
         padding: 17px 40px;
         margin: 0px 27.17px;
     }
-    .site-hero-text a {
+    .blown a {
         position: absolute;
         left: 50%;
         bottom: 40px;
@@ -130,11 +150,11 @@
     .site-hero-text h6 {
         font-size: 15px;
         font-weight: 300px;
-        font-family: Montserrat, sans-serif;
+        font-family: "Montserrat", sans-serif;
     }
     .site-hero-text h1 {
         margin-bottom: 75px;
-        font-size: 30px;
+        font-size: 25px;
         line-height: 1.2;
     }
     .btn-content {
@@ -166,9 +186,9 @@
 @media screen and (max-width:992px) {
     .site-hero-text h1 {
         margin-bottom: 75px;
-        font-size: 60px;
+        /* font-size: 50px; */
         font-weight: 600px;
-        font-family: Montserrat, sans-serif;
+        font-family: "Montserrat", sans-serif;
         line-height: 1.2;
         margin-top: 0;
         /* max-width: 770px; */
@@ -181,7 +201,7 @@
 }
 @media screen and (max-width:1200px) {
     .site-hero-text a {
-        margin-top: 50px;
+        margin-top: 60px;
     }
 }
 
