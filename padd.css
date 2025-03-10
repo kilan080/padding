@@ -8,7 +8,58 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Josefin Sans", serif;
+
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 15px 30px;
+}
+
+.drop-btn {
+    background-color: #add6d2;
+    color: #fff;
+    padding: 16px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.drop-down {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.down-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    flex-direction: column;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+.drop-down:hover .dropdown-content {
+    display: block;
+}
+.drop-down:hover .drop-btn {
+    background-color: #add6d2;
+} 
+
+
 .col-lg {
     display: flex;
     text-align: center;
